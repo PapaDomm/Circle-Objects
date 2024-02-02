@@ -17,23 +17,23 @@ namespace Circle_Objects
 
         public double CalculateDiameter()
         {
-            return this.radius * 2;
+            return radius * 2;
         }
         public double CalculateCircumference()
         {
-            return this.radius * 2 * System.Math.PI;
+            return radius * 2 * System.Math.PI;
         }
         public double CalculateArea()
         {
-            return this.radius * this.radius * System.Math.PI;
+            return radius * radius * System.Math.PI;
         }
         public void Grow()
         {
-            this.radius *= 2;
+            radius *= 2;
         }
         public double GetRadius()
         {
-            return this.radius;
+            return radius;
         }
     }
 }
